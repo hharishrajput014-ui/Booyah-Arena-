@@ -1,0 +1,37 @@
+body {
+  background: #0a0a0a;
+  color: #fff;
+  font-family: Arial;
+  text-align: center;
+  padding-top: 50px;
+}
+.container {
+  max-width: 400px;
+  margin: auto;
+  background: #1a1a1a;
+  padding: 30px;
+  border-radius: 15px;
+  border: 2px solid #ff4500;
+}
+h1 {
+  color: #ff4500;
+  text-shadow: 0 0 10px #ff4500;
+}
+#attackBtn {
+  background: #ff4500;
+  color: white;
+  border: none;
+  padding: 20px 40px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+#attackBtn:active {
+  transform: scale(0.95);
+}
+.stats {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+}
